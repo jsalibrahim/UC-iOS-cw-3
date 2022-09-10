@@ -48,7 +48,7 @@ struct ContentView: View {
                         let g = Double(grade) ?? 0
                         
                         if g >= 90.0 && g <= 100
-                        {
+                {
                             finalgrde = "ممتاز"
                         }
                         else if g >= 80.0 && g < 90
@@ -76,7 +76,6 @@ struct ContentView: View {
                 .bold()
                 .font(.largeTitle)
                 .padding(77)
-        
         }
     }
 }
