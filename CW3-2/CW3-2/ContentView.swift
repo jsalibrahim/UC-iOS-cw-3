@@ -11,6 +11,7 @@ struct ContentView: View {
     @State var count1 = 0
     @State var count2 = 0
     @State var count3 = 0
+    
     var body: some View {
         VStack{
             
@@ -44,7 +45,9 @@ struct ContentView: View {
                 }
             }
             
+            
             Spacer()
+            
         }
     }
 }
@@ -64,7 +67,6 @@ struct counter: View {
             .onTapGesture {
                 count = count + 1
             }
-           
     }
 }
 
